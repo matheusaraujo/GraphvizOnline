@@ -58,8 +58,8 @@ function Set-ImageSize {
     Resize-Image -InputFile $SourceFilePath -Scale 30 -OutputFile $OutputFile
 }
 
-Run-JavaScript '.\gsheet_powershell' 'dti-1-1-tmp.dot'
-Set-Encoding 'dti-1-1-tmp.dot' 'dti-1-1.dot'
-Run-Graphviz 'dti-1-1.dot' 'dti-1-1.png'
+#Run-JavaScript '.\gsheet_powershell' 'dti-1-1-tmp.dot'
+#Set-Encoding 'dti-1-1-tmp.dot' 'dti-1-1.dot'
+#Run-Graphviz 'dti-1-1.dot' 'dti-1-1.png'
 # Resize image
 Copy-Local2DropBox 'dti-1-1.png' '/public/download.png'
