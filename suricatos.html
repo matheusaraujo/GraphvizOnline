@@ -5,6 +5,17 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <title>dti 1-1</title>
       <link rel="stylesheet" href="index.css" media="screen" >
+      <style>
+        #gsheet {
+          height: 0;
+          width: 0;
+          display: none;
+        }
+
+        #editor {
+          display: block;
+        }
+    </style>
   </head>
   <body>    
     <iframe id="gsheet" src="https://docs.google.com/spreadsheets/d/18VQygZXodUcmkli9RQjccoUY8qUfw6Vf5B9PChnmZKI/edit?usp=sharing"></iframe>
@@ -54,13 +65,13 @@
       <label id="tribe">
         Tribe:
         <select>
-          <option selected="">dti</option>
+          <option>dti</option>
           <option>balboa</option>
           <option>camaleao</option>
           <option>curingas</option>
           <option>gc</option>
           <option>javalis</option>
-          <option>origami</option>
+          <option selected="">origami</option>
           <option>rackers</option>
           <option>rubix</option>
           <option>suricatos</option>
